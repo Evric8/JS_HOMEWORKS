@@ -1,8 +1,8 @@
 'use strict';
 
 // Task #1
-let admin;
-let name;
+let admin = null;
+let name = null;
 
 name = 'John';
 
@@ -15,5 +15,5 @@ const planet = 'Earth';
 const firstName = '';
 
 // Task #3
-let str = '10' + 10;
+const str = '10' + 10;
 console.log(typeof str);
