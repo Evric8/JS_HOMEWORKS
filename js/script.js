@@ -15,11 +15,7 @@ const newArr = function (item) {
     }
   }
 
-  if (exampleArr.length > 0) {
-    return exampleArr;
-  } else {
-    return null;
-  }
+  return exampleArr.length > 0 ? exampleArr : null;
 }
 
 console.log(newArr(arr));
