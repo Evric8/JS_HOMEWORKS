@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+        padding-left: 0;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+[data-add] {
+    background-color: rgb(252, 223, 189);
+    border-radius: 20px;
+}
+[data-remove] {
+    background-color: rgb(247, 114, 80);
+    border-radius: 20px;
+}
+[data-delete] {
+    display: none;
+}
