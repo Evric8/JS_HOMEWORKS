@@ -8,7 +8,7 @@ function Student(firstHame, lastName, birthYear) {
 
     Student.prototype.getAge = function(){
         const currentYear = new Date().getFullYear();
-        return currentYear - this.birthYear;;
+        return currentYear - this.birthYear;
     };
 
     Student.prototype.setAttendance = function(bull){
